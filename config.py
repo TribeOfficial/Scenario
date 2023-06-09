@@ -2,7 +2,7 @@ import os
 
 """
 Things to be noted you can fill values between empty "" 
-Example - JOIN_LOGGER = os.environ.get("EVENT_LOGS", "-100828822882")
+Example - JOIN_LOGGER = os.environ.get("EVENT_LOGS", "-991444451")
 
 • If value is none there add "" to fill if you don't wanna fill add None
 
@@ -11,16 +11,16 @@ Example - JOIN_LOGGER = os.environ.get("EVENT_LOGS", "-100828822882")
 
 
 # Token from botfather 
-TOKEN = os.environ.get("TOKEN", "")
+TOKEN = os.environ.get("TOKEN", "5620764272:AAFkTmS1llTWCq1dhWxRQBQnIiEI8yQ8f6g")
 
 # Make a new group then add @ScenarioXbot then send /id and fill id here.
 JOIN_LOGGER = os.environ.get("EVENT_LOGS", "")
 
 # only one # don't remove other one.
-OWNER_ID = int(os.environ.get("OWNER_ID", "2142595466", "fill_your_id_here_")) 
+OWNER_ID = int(os.environ.get("OWNER_ID", "1944626066", "fill_your_id_here_")) 
 
 # only one # don't remove other one.
-OWNER_USERNAME = os.environ.get("OWNER_USERNAME", "CoderX", "Your_username_here")
+OWNER_USERNAME = os.environ.get("OWNER_USERNAME", "riyademobot", "Your_username_here")
 
 # can add multiple with spaces
 DRAGONS = {int(x) for x in os.environ.get("DRAGONS", "").split()}
@@ -57,10 +57,10 @@ PORT = int(os.environ.get("PORT", 8443))
 CERT_PATH = os.environ.get("CERT_PATH")
 
 # Bot Owner's API_ID (From:- https://my.telegram.org/apps)
-API_ID = os.environ.get("API_ID", "")
+API_ID = os.environ.get("API_ID", "21138457")
 
 # Bot Owner's API_HASH (From:- https://my.telegram.org/apps)
-API_HASH = os.environ.get("API_HASH", "")
+API_HASH = os.environ.get("API_HASH", "d18937aebbfef48deb77251aeab6dc43")
 
 # Any SQL Database Link (RECOMMENDED:- PostgreSQL & https://www.elephantsql.com)
 DB_URL = os.environ.get("DATABASE_URL", "") 
@@ -107,8 +107,8 @@ MONGO_DB = "scenario" # Don't change else errors.
 ARQ_API_URL = "https://arq.hamker.in"
 GOOGLE_CHROME_BIN = "/usr/bin/google-chrome"
 CHROME_DRIVER = "/usr/bin/chromedriver"
-SUDO_USERS = "2142595466"
-WHITELIST_USERS = "2142595466"
+SUDO_USERS = "1944626066"
+WHITELIST_USERS = "1944626066"
 BOT_API_URL = os.environ.get('BOT_API_URL', "https://api.telegram.org/bot")
 UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "TeamScenario")
 
